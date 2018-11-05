@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Code Review</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 class="title">The Code Review</h1>
+  <div class="intro_text">
+    <h2 class="title_text">Signup for our newsletter<h2>
+    <p class="body_text">Get the latest news on how your code is doing right in your inbox<p>
+  </div>
+  <form action="index.html" method="post">
+    <fieldset>
+
+      <legend class="title_text border_1">Contact Information</legend>
+      <div class="container_1">
+
+        <div class="form_1">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="user_name" placeholder="Required" required>
+        </div>
+
+        <div class="form_1">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="user_email" placeholder="Required" required>
+        </div>
+
+        <div class="form_1">
+          <label for="tel_number">Phone Number</label>
+          <input type="tel" id="tel_number" name="user_tel" placeholder="Required" required>
+        </div>
+
+        <div class="form_1">
+          <label for="address">Street Address</label>
+          <input type="text" id="address" name="user_address" placeholder="Required" required>
+        </div>
+
+        <div class="form_1">
+          <label for="city">City</label>
+          <input type="text" id="city" name="user_city" placeholder="Required" required>
+        </div>
+
+        <div class="form_1">
+          <label for="state">State</label>
+          <select id="state" name="user_state" placeholder="Choose State">
+            <option value="" selected>Choose State</option>
+            <option value="arizona">Arizona</option>
+            <option value="california">California</option>
+            <option value="oregon">Oregon</option>
+          </select>
+        </div>
+
+        <div class="form_1 zip">
+          <label for="zip">Zip Code</label>
+          <input type="text" id="zip" name="user_zip" placeholder="Required" required>
+            <div class="empty-space-filler">
+            </div>
+        </div>
+
+      </div>
+
+    </fieldset>
+    <fieldset>
+
+      <legend class="title_text border_2">Newsletter</legend>
+      <div class="container_2">
+        <label>Select the newsletters you would like to recieve</label>
+        <ul>
+          <li>
+            <input type="checkbox" id="html_box" value="html_news" name="user_choice">
+            <label for="html_box">HTML News</label>
+          </li>
+          <li>
+            <input type="checkbox" id="css" value="css_news" name="user_choice">
+            <label for="css">CSS News</label>
+          </li>
+          <li>
+            <input type="checkbox" id="js" value="js_news" name="user_choice">
+            <label for="js">Javascript News</label>
+          </li>
+        </ul>
+
+        <label>Newsletter format</label>
+        <ul>
+          <li>
+            <input type="radio" id="html_radio" value="html" name="user_age"><label for="html_radio">HTML</label>
+          </li>
+          <li>
+            <input type="radio" id="plain_text" value="plain_text" name="user_age"><label for="plain_text">Plain text</label>
+          </li>
+        </ul>
+        <label for="comment">Other topics you'd like to hear about</label>
+        <textarea id="comment" name="user_comment"></textarea>
+      </div>
+    </fieldset>
+    <button type="submit">Sign Up</button>
+  </form>
+  <footer class="footer">
+    <p>Copyright The Code Review</p>
+	</footer>
+</body>
+</html>
