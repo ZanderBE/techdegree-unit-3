@@ -17,7 +17,7 @@ p {
   align-items: center;
 }
 
-h1{
+h1 {
   background-color: #233343;
   font-size: 1.2em;
   color: white;
@@ -28,7 +28,7 @@ h1{
   margin-bottom: 0;
 }
 
-p{
+p {
   text-align: center;
 }
 
@@ -46,7 +46,6 @@ select {
   background-color: #e4e4e4;
   padding: 20px 5px 20px 5px;
   margin: 10px 0px 10px 0px;
-  border-color: #e4e4e4;
   transition: border 500ms ease-out;
   transition: background-color 500ms ease-out;
 }
@@ -82,7 +81,6 @@ textarea {
   min-height: 100px;
   background-color: #e4e4e4;
   margin: 10px 0px 10px 0px;
-  border-color: #e4e4e4;
   transition: border 500ms ease-out;
   transition: background-color 500ms ease-out;
 }
@@ -192,3 +190,5 @@ select:focus {
   .empty-space-filler {
     width: 55%;
   }
+
+}
