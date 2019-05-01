@@ -1,6 +1,4 @@
-# techdegree-unit-3
-Adding unit 3 project to git
-# Techdegree Project 3: Online Registration Form
+# Techdegree Project 3: Build an Online Registration Form
 
 ## Project Instructions
 
